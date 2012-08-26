@@ -121,7 +121,7 @@ obj-$(RTCONFIG_USB_BECEEM) += Beceem_BCMS250 # for Beceem WiMAX
 obj-y += libdisk
 
 obj-y += dosfstools
-obj-$(RTCONFIG_NTFS) += linux-ntfs-2.0.0
+#obj-$(RTCONFIG_NTFS) += linux-ntfs-2.0.0
 obj-$(RTCONFIG_FTP) += vsftpd
 
 ifeq ($(CONFIG_LINUX26),y)
